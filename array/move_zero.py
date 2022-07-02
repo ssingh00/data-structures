@@ -23,3 +23,6 @@ print("Original Array:", v)
 move_zeros_to_left(v)
 
 print("After Moving Zeroes to Left: ", v)
+
+def move_zeros_to_left_new(A):
+  
