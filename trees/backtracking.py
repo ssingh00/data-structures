@@ -16,6 +16,5 @@ if __name__ == '__main__':
     als = AllSubset()
     nums = [1,2,3]
     res= als.subsets(nums)
-    print(als.count)
     print(res)
 
