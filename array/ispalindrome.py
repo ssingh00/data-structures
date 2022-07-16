@@ -5,8 +5,8 @@ class Solution:
         i = x
         s = 0
         while(i > 0):
-            d = i % 10
-            s = s * 10 + d  
+            r = i % 10
+            s = s * 10 + r  
             i = int(i / 10)
         if (x == s):
             return True
